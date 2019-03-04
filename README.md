@@ -1,2 +1,3 @@
-# personal-page-second
-First version of my personal page 🙉
+# Personal Page
+
+Second version of my personal page 🙉
