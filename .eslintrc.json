@@ -1,0 +1,38 @@
+{
+    "root": true,
+    "extends": [
+        "standard",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "plugins": [
+        "react",
+        "react-hooks",
+        "@typescript-eslint"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        }],
+        "semi": ["error", "always"],
+        "space-before-function-paren": ["error", {
+            "anonymous": "never",
+            "named": "never",
+            "asyncArrow": "always"
+        }],
+        "@typescript-eslint/explicit-function-return-type": "off"
+    },
+    "settings": {
+        "react": {
+            "version": "16.8"
+        }
+    }
+}

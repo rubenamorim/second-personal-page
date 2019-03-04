@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["next/babel", {
+      "preset-env": {
+        "useBuiltIns": "usage"
+      }
+    }],
+    "@zeit/next-typescript/babel",
+  ],
+  "plugins": [
+    ["emotion"],
+    ["module-resolver", {
+      "root": ["."],
+      "alias": {
+        "pages": "./pages"
+      }
+    }]
+  ]
+}

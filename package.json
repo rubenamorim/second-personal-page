@@ -4,6 +4,11 @@
   "description": "Second version of my personal page 🙉",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "lint": "eslint --ext .tsx pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +21,31 @@
   "bugs": {
     "url": "https://github.com/rubenamorim/personal-page-second/issues"
   },
-  "homepage": "https://github.com/rubenamorim/personal-page-second#readme"
+  "homepage": "https://github.com/rubenamorim/personal-page-second#readme",
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "@zeit/next-typescript": "^1.1.1",
+    "babel-plugin-emotion": "^10.0.7",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^11.10.4",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint": "^5.15.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "typescript": "^3.3.3333"
+  }
 }
