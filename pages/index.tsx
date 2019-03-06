@@ -6,7 +6,7 @@ const Title = styled('h1', { shouldForwardProp: (prop) => prop !== 'color' })`
   text-align: center;
 `;
 
-function Home() {
+function Home(): React.ReactElement {
     return (
         <Title color="red">Hello 👋</Title>
     );

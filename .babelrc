@@ -12,7 +12,9 @@
     ["module-resolver", {
       "root": ["."],
       "alias": {
-        "pages": "./pages"
+        "components" : "./components",
+        "pages": "./pages",
+        "theme" : "./theme"
       }
     }]
   ]
