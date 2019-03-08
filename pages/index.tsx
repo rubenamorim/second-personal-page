@@ -1,22 +1,22 @@
 import React from 'react';
 import { Global } from '@emotion/core';
-import styled from '@emotion/styled';
 
 import Head from 'components/Head';
+import Container from 'components/Container';
+import Board from 'components/Board';
+import Github from 'components/Github';
 
 import globalStyles from 'theme/styles/global';
-
-const Title = styled('h1', { shouldForwardProp: (prop) => prop !== 'color' })`
-  color: ${(props) => props.color};
-  text-align: center;
-`;
 
 function Homepage(): React.ReactElement {
     return (
       <>
         <Head />
         <Global styles={ globalStyles } />
-        <Title color="red">Hello 👋</Title>
+        <Container>
+            <Board text="Hello 👋"/>
+            <Github />
+        </Container>
       </>
     );
 }

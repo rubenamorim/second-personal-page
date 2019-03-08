@@ -1,2 +1,4 @@
-export const fontFamily = 'Helvetica, sans-serif';
-export const fontFamilySerif = 'Arial, serif';
+export const fontFamilyMonospace = '\'Roboto Mono\', monospace';
+export const fontFamilyHandwriting = '\'Gloria Hallelujah\', cursive';
+
+export const fontFamily = fontFamilyMonospace;

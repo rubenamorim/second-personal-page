@@ -1,13 +1,11 @@
 import { css } from '@emotion/core';
 import normalize from 'emotion-normalize';
 
-import fontFaces from 'theme/styles/font-faces';
 import * as colors from 'theme/styles/colors';
 import * as typography from 'theme/styles/typography';
 
 export default css`
     ${normalize};
-    ${fontFaces};
 
     *,
     *::before,
@@ -23,19 +21,23 @@ export default css`
         font-size: 62.5%;
     }
 
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         color: ${colors.black};
         font-family: ${typography.fontFamily};
         font-size: 1.6rem;
         -webkit-font-smoothing: antialiased;
         line-height: 1.4;
-    }
 
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
+        & > :first-child {
+            height: 100%;
+        }
     }
 
     body,

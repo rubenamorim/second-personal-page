@@ -13,6 +13,9 @@ function Head(props: Props): React.ReactElement {
             <link rel="preload" type="font/woff2" as="font" crossOrigin="anonymous" href="/static/fonts/font.woff2" />
             */}
 
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet" />
+
             <link rel="manifest" crossOrigin="use-credentials" href="/static/manifest.json" />
             <link rel="shortcut icon" href="/static/favicon.ico" />
             <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
