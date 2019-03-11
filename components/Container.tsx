@@ -1,9 +1,6 @@
 import React from 'react';
-import styled from '@emotion/styled';
 
-const Main = styled.main`
-    display: flex;
-`;
+import { Main } from './Container.styles';
 
 function Container(props: Props): React.ReactElement {
     return (
