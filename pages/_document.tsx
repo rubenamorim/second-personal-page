@@ -10,7 +10,7 @@ class CustomDocument extends Document {
 
     public render(): React.ReactElement {
         return (
-            <html>
+            <html lang="en">
                 <Head>
                 </Head>
                 <body>

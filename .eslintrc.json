@@ -3,12 +3,14 @@
     "extends": [
         "standard",
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:jsx-a11y/recommended"
     ],
     "plugins": [
         "react",
         "react-hooks",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "jsx-a11y"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
