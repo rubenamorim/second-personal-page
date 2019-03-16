@@ -4,13 +4,15 @@
         "standard",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:jsx-a11y/recommended"
+        "plugin:jsx-a11y/recommended",
+        "plugin:jest/recommended"
     ],
     "plugins": [
         "react",
         "react-hooks",
         "@typescript-eslint",
-        "jsx-a11y"
+        "jsx-a11y",
+        "jest"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -37,5 +39,8 @@
         "react": {
             "version": "16.8"
         }
+    },
+    "env": {
+        "jest/globals": true
     }
 }

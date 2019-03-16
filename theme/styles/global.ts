@@ -35,7 +35,7 @@ export default css`
         -webkit-font-smoothing: antialiased;
         line-height: 1.4;
 
-        & > :first-child {
+        & > div:first-of-type {
             height: 100%;
         }
     }

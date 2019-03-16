@@ -12,9 +12,9 @@
     ["module-resolver", {
       "root": ["."],
       "alias": {
-        "components" : "./components",
+        "components": "./components",
         "pages": "./pages",
-        "theme" : "./theme"
+        "theme": "./theme"
       },
       "extensions": [".ts", ".tsx", ".json"]
     }]
