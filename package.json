@@ -35,13 +35,13 @@
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-spring": "^8.0.20"
+    "react-spring": "^8.0.21"
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",
     "@types/next": "^8.0.5",
-    "@types/node": "^11.13.11",
-    "@types/react": "^16.8.18",
+    "@types/node": "^11.13.13",
+    "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
@@ -60,6 +60,6 @@
     "jest-dom": "^3.4.0",
     "react-testing-library": "^6.1.2",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.1"
   }
 }
